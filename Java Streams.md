@@ -1,54 +1,54 @@
 # Interview Questions
-### Basic Level
-1.	What is Stream API in Java?
-2.	Difference between Collection and Stream?
-3.	What are intermediate and terminal operations?
-4.	What is lazy evaluation in streams?
-5.	How do you create a Stream?
-6.	What is the difference between map() and flatMap()?
-7.	What is filter() in streams?
-8.	What is the use of forEach()?
-9.	What is reduce()?
-10.	What is the difference between findFirst() and findAny()?
-11.	Difference between map() and peek()?
-12.	What is the difference between sorted() and distinct()?
-13.	How does collect() work?
-14.	What is Collectors.groupingBy()?
-15.	What is Collectors.partitioningBy()?
-16.	How to convert List to Map using streams?
-17.	How to handle duplicate keys while collecting to Map?
-18.	What is the difference between limit() and skip()?
-19.	What is Optional in Streams?
-20.	How do you handle NullPointerException in streams?
-21.	What is the difference between map() and flatMap() with real example?
-22.	What are parallel streams?
-23.	Difference between stream() and parallelStream()?
-24.	When should we NOT use parallel streams?
-25.	What is the ForkJoin framework in parallel streams?
-26.	Is Stream thread-safe?
-27.	What happens if you reuse a stream?
-28.	What is short-circuiting in streams?
-29.	Difference between reduce() and collect()?
-30.	How does internal iteration differ from external iteration?
+### 
+    1.	What is Stream API in Java?
+    2.	Difference between Collection and Stream?
+    3.	What are intermediate and terminal operations?
+    4.	What is lazy evaluation in streams?
+    5.	How do you create a Stream?
+    6.	What is the difference between map() and flatMap()?
+    7.	What is filter() in streams?
+    8.	What is the use of forEach()?
+    9.	What is reduce()?
+    10.	What is the difference between findFirst() and findAny()?
+    11.	Difference between map() and peek()?
+    12.	What is the difference between sorted() and distinct()?
+    13.	How does collect() work?
+    14.	What is Collectors.groupingBy()?
+    15.	What is Collectors.partitioningBy()?
+    16.	How to convert List to Map using streams?
+    17.	How to handle duplicate keys while collecting to Map?
+    18.	What is the difference between limit() and skip()?
+    19.	What is Optional in Streams?
+    20.	How do you handle NullPointerException in streams?
+    21.	What is the difference between map() and flatMap() with real example?
+    22.	What are parallel streams?
+    23.	Difference between stream() and parallelStream()?
+    24.	When should we NOT use parallel streams?
+    25.	What is the ForkJoin framework in parallel streams?
+    26.	Is Stream thread-safe?
+    27.	What happens if you reuse a stream?
+    28.	What is short-circuiting in streams?
+    29.	Difference between reduce() and collect()?
+    30.	How does internal iteration differ from external iteration?
  
  ### Coding-Based Interview Questions using streams
-1.	Find duplicate elements in a list
-2.	Find frequency of each character in a string
-3.	Find second highest number
-4.	Group employees by department
-5.	Find highest salary employee
-6.	Convert List<String> to comma-separated string
-7.	Merge two lists using streams
-8.	Flatten nested list
-9.	Count occurrences of words
-10.	Sort list by multiple fields
+    1.	Find duplicate elements in a list
+    2.	Find frequency of each character in a string
+    3.	Find second highest number
+    4.	Group employees by department
+    5.	Find highest salary employee
+    6.	Convert List<String> to comma-separated string
+    7.	Merge two lists using streams
+    8.	Flatten nested list
+    9.	Count occurrences of words
+    10.	Sort list by multiple fields
 
 ### Tricky Conceptual Questions
-•	Why are streams lazy?
-•	Can streams modify the source collection?
-•	What happens if an exception occurs in stream pipeline?
-•	Can we break from forEach()?
-•	What is stateful vs stateless intermediate operation?
+    •	Why are streams lazy?
+    •	Can streams modify the source collection?
+    •	What happens if an exception occurs in stream pipeline?
+    •	Can we break from forEach()?
+    •	What is stateful vs stateless intermediate operation?
 
 ---
 # Notes:
@@ -674,7 +674,7 @@ int sum = list.stream()
 
 ---
 
-# 🚀 Most Important Optimization Insight
+#  Most Important Optimisation Insight
 
 | Operation    | Complexity |
 | ------------ | ---------- |
