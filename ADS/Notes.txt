@@ -98,37 +98,6 @@ Operation on Data structures:
 HW: Diff Linear and Nonlinear : 10 ptr
 HW: Diff Static and Dynamic Data Structure
 
-Recursion:
-------------
--Any functions which calls itself directly/indirectly is called Recursion
-
-void  show(){
-
- show();//calling a copy of show()
-}
-
-int main(){
-show()
-}
-
-Direct Recursion:
-------------------
-
-void display()
-{
-	display();
-}
-
-Indirect Recursion:
--------------------
-void display()
-{
-	show();
-}
-
-void show(){
-	display()
-}
 
 Date: 16/09/2025
 -------------------------------------
@@ -179,11 +148,7 @@ Arrays:
 -create dynamic array using data structure linked linked list and trees.
 
 
-Address of Memory location: A[i] = M + (i-L) *w
 
-Size(A) = U - L +1
-U = upper limit
-L = lower limit
 
 
 Array Operations:
